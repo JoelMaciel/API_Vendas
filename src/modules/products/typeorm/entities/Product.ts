@@ -24,5 +24,6 @@ class Product {
 
   @CreateDateColumn()
   update_at: Date;
+  save: any;
 }
 export default Product

@@ -1,5 +1,5 @@
 import AppError from '@shared/erros/AppError';
-import { getCustomRepository } from 'typeorm';
+import { EntityRepository, getCustomRepository } from 'typeorm';
 import Product from '../typeorm/entities/Product';
 import { ProductsRepository } from '../typeorm/repositories/ProductsRepository';
 

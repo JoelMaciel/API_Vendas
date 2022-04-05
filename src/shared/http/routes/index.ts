@@ -1,7 +1,9 @@
-import productsRoutes from '@modules/products/routes/Product.routes';
+import productsRouter from '@modules/products/routes/Product.routes';
+import userRouter from '@modules/users/routes/users.routes';
 import { Router } from 'express';
 
 const routes = Router();
-routes.use('/products', productsRoutes);
+routes.use('/products', productsRouter);
+routes.use('/users', userRouter);
 
 export default routes;
